@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>TailwindCSS.Blazor</PackageId>
+        <PackageVersion>1.0.18</PackageVersion>
+        <Authors>Pinyo Rungoral</Authors>
+        <Description>A library that integrated tailwind cli to dotnet blazor included self hot-reload</Description>
+        <PackageTags>javascript;css;blazor</PackageTags>
+        <RepositoryUrl>https://github.com/pinyo-rungoral/tailwindcss-blazor</RepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="/"/>
+<!--        <None Include="package.json" Pack="true" PackagePath="contentFiles\any\any" />-->
+<!--        <None Include="Styles/app.css" Pack="true" PackagePath="contentFiles\any\any\Styles" />-->
+<!--        <None Include="Styles/app.css" Pack="true" PackagePath="content\any\any\Styles" />-->
+<!--        <Content Include="tailwind.config.js"-->
+<!--                 Pack="true"-->
+<!--                 PackagePath="contentFiles\any\any"-->
+<!--                 CopyToOutput="false"-->
+<!--                 CopyToProject="true" />-->
+    </ItemGroup>
+    <!-- Include static web assets -->
+    <!--    <ItemGroup>-->
+    <!--        <Content Include="wwwroot\**\*" PackagePath="staticwebassets\%(RecursiveDir)%(Filename)%(Extension)" />-->
+    <!--        <Content Update="package.json">-->
+    <!--          <ExcludeFromSingleFile>true</ExcludeFromSingleFile>-->
+    <!--          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>-->
+    <!--          <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>-->
+    <!--        </Content>-->
+    <!--    </ItemGroup>-->
+
+    <!-- MSBuild targets for npm installation -->
+<!--    <ItemGroup>-->
+<!--        <None Include="build\**\*" Pack="true" PackagePath="build\"/>-->
+<!--        <None Include="buildTransitive\**\*" Pack="true" PackagePath="buildTransitive\"/>-->
+<!--    </ItemGroup>-->
+</Project>

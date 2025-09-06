@@ -1,0 +1,89 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Build results
+bin/
+obj/
+out/
+[Ll]og/
+TestResults/
+*.cache/
+*.pidb
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.userprefs
+
+# Visual Studio
+.vs/
+# VS Code
+.vscode/
+
+# JetBrains Rider / ReSharper
+.idea/
+*.DotSettings.user
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.sln.iml
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+# NuGet config (user-specific)
+NuGet.Config
+
+# Publish / artifacts
+artifacts/
+publish/
+AppPackages/
+BundleArtifacts/
+[Aa]pp_Data/
+*.Publish.xml
+*.pubxml.user
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# ASP.NET / Web
+# If using LibMan
+wwwroot/lib/
+# If your CSS/JS is generated (uncomment as needed)
+# wwwroot/css/
+# wwwroot/js/
+# wwwroot/dist/
+
+# Node / tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+
+# Environment files
+*.env
+*.env.*
+!.env.example
+
+# Databases (local/dev)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Certificates / keys
+*.pfx
+*.p12
+*.key
+*.cer
+
+# Misc tools
+StyleCopReport.xml

@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "./Styles/theme.css";
+
+/*.p-dropdown {*/
+/*    background-color: green;*/
+/*}*/
+
+.p-icon-field{
+    @apply border-gray-300 border h-10 flex items-center px-3 rounded-lg gap-2;
+}
+
+.p-input-icon{
+    @apply size-5
+}
+.p-input-icon > svg {
+    @apply fill-gray-500
+}
+
+.p-input{
+    @apply border border-gray-400 focus:border-none focus:outline-none
+}
+
+.p-inputtext{
+    @apply h-full w-full focus:border-none focus:outline-none;
+}
+
+.property-advance-search{
+    @apply flex flex-col border-t-gray-400 border-t-4 p-8 ;
+
+    .panel-heading{
+        @apply  flex justify-between font-sans text-2xl;
+    }
+}
+
+.p-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
